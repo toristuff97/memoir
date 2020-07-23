@@ -49,9 +49,9 @@ export default class Home extends Component {
                     <div class="card" style={{width: '30vw'}}>
                         <img class="card-img-top" src={cathedral} rel="nofollow" alt="Card image cap"/>
                         <div class="card-body">
-                            <i class="material-icons">favorite_border</i> 
+                            <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
                             <p class="likes">2 Likes</p>
-                            <p class="username">dietmangotea</p>
+                            <p class="username" style={{fontWeight: "bold"}}>dietmangotea</p>
                             <p class="caption">Was here yesterday, pretty cool!</p>
                             <button type="button" class="btn btn-link">2 Comments</button>
                             <button type="button" class="btn btn-link">Bookmark</button>
@@ -62,9 +62,9 @@ export default class Home extends Component {
                     <div class="card" style={{width: '30vw'}}>
                         <img class="card-img-top" src={lady} rel="nofollow" alt="Card image cap"/>
                         <div class="card-body">
-                            <i class="material-icons">favorite_border</i>
+                            <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
                             <p class="likes">2 Likes</p>
-                            <p class="username">fizzamy</p>
+                            <p class="username" style={{fontWeight: "bold"}}>fizzamy</p>
                             <p class="caption">Was here yesterday, pretty cool!</p>
                             <button type="button" class="btn btn-link">2 Comments</button>
                             <button type="button" class="btn btn-link">Bookmark</button>
@@ -75,9 +75,9 @@ export default class Home extends Component {
                     <div class="card" style={{width: '30vw'}}>
                         <img class="card-img-top" src={climbing} rel="nofollow" alt="Card image cap"/>
                         <div class="card-body">
-                            <i class="material-icons">favorite_border</i>
+                            <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
                             <p class="likes">2 Likes</p>
-                            <p class="username">lucasicterine</p>
+                            <p class="username" style={{fontWeight: "bold"}}>lucasicterine</p>
                             <p class="caption">Was here yesterday, pretty cool!</p>
                             <button type="button" class="btn btn-link">2 Comments</button>
                             <button type="button" class="btn btn-link">Bookmark</button>
@@ -90,9 +90,9 @@ export default class Home extends Component {
                     <div class="card" style={{width: '30vw'}}>
                         <img class="card-img-top" src={building} rel="nofollow" alt="Card image cap"/>
                         <div class="card-body">
-                            <i class="material-icons">favorite_border</i>  
+                            <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
                             <p class="likes">2 Likes</p>
-                            <p class="username">lucasicterine</p>
+                            <p class="username" style={{fontWeight: "bold"}}>lucasicterine</p>
                             <p class="caption">Was here yesterday, pretty cool!</p>
                             <button type="button" class="btn btn-link">2 Comments</button>
                             <button type="button" class="btn btn-link">Bookmark</button>
@@ -103,9 +103,9 @@ export default class Home extends Component {
                     <div class="card" style={{width: '30vw'}}>
                         <img class="card-img-top" src={brunch} rel="nofollow" alt="Card image cap"/>
                         <div class="card-body">
-                            <i class="material-icons">favorite_border</i>
+                            <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
                             <p class="likes">2 Likes</p>
-                            <p class="username">fizzamy</p>
+                            <p class="username" style={{fontWeight: "bold"}}>fizzamy</p>
                             <p class="caption">Was here yesterday, pretty cool!</p>
                             <button type="button" class="btn btn-link">2 Comments</button>
                             <button type="button" class="btn btn-link">Bookmark</button>
@@ -116,9 +116,9 @@ export default class Home extends Component {
                     <div class="card" style={{width: '30vw'}}>
                         <img class="card-img-top" src={couch} rel="nofollow" alt="Card image cap"/>
                         <div class="card-body">
-                            <i class="material-icons">favorite_border</i>
+                            <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
                             <p class="likes">2 Likes</p>
-                            <p class="username">dietmangotea</p>
+                            <p class="username" style={{fontWeight: "bold"}}>dietmangotea</p>
                             <p class="caption">Was here yesterday, pretty cool!</p>
                             <button type="button" class="btn btn-link">2 Comments</button>
                             <button type="button" class="btn btn-link">Bookmark</button>
@@ -131,9 +131,9 @@ export default class Home extends Component {
                     <div class="card" style={{width: '30vw'}}>
                         <img class="card-img-top" src={cat} rel="nofollow" alt="Card image cap"/>
                         <div class="card-body">
-                            <i class="material-icons">favorite_border</i>
+                            <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
                             <p class="likes">2 Likes</p>
-                            <p class="username">fizzamy</p>
+                            <p class="username" style={{fontWeight: "bold"}}>fizzamy</p>
                             <p class="caption">Was here yesterday, pretty cool!</p>
                             <button type="button" class="btn btn-link">2 Comments</button>
                             <button type="button" class="btn btn-link">Bookmark</button>
@@ -144,9 +144,9 @@ export default class Home extends Component {
                     <div class="card" style={{width: '30vw'}}>
                         <img class="card-img-top" src={soup} rel="nofollow" alt="Card image cap"/>
                         <div class="card-body">
-                            <i class="material-icons">favorite_border</i>
+                            <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
                             <p class="likes">2 Likes</p>
-                            <p class="username">lucasicterine</p>
+                            <p class="username" style={{fontWeight: "bold"}}>lucasicterine</p>
                             <p class="caption">Was here yesterday, pretty cool!</p>
                             <button type="button" class="btn btn-link">2 Comments</button>
                             <button type="button" class="btn btn-link">Bookmark</button>
@@ -157,9 +157,9 @@ export default class Home extends Component {
                     <div class="card" style={{width: '30vw'}}>
                         <img class="card-img-top" src={sunflowers} rel="nofollow" alt="Card image cap"/>
                         <div class="card-body">
-                            <i class="material-icons">favorite_border</i>
+                            <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
                             <p class="likes">2 Likes</p>
-                            <p class="username">dietmangotea</p>
+                            <p class="username" style={{fontWeight: "bold"}}>dietmangotea</p>
                             <p class="caption">Was here yesterday, pretty cool!</p>
                             <button type="button" class="btn btn-link">2 Comments</button>
                             <button type="button" class="btn btn-link">Bookmark</button>
@@ -172,9 +172,9 @@ export default class Home extends Component {
                     <div class="card" style={{width: '30vw'}}>
                         <img class="card-img-top" src={living} rel="nofollow" alt="Card image cap"/>
                         <div class="card-body">
-                            <i class="material-icons">favorite_border</i>  
+                            <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button> 
                             <p class="likes">2 Likes</p>
-                            <p class="username">fizzamy</p>
+                            <p class="username" style={{fontWeight: "bold"}}>fizzamy</p>
                             <p class="caption">Was here yesterday, pretty cool!</p>
                             <button type="button" class="btn btn-link">2 Comments</button>
                             <button type="button" class="btn btn-link">Bookmark</button>
@@ -185,9 +185,9 @@ export default class Home extends Component {
                     <div class="card" style={{width: '30vw'}}>
                         <img class="card-img-top" src={museum} rel="nofollow" alt="Card image cap"/>
                         <div class="card-body">
-                            <i class="material-icons">favorite_border</i>
+                            <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
                             <p class="likes">2 Likes</p>
-                            <p class="username">lucasicterine</p>
+                            <p class="username" style={{fontWeight: "bold"}}>lucasicterine</p>
                             <p class="caption">Was here yesterday, pretty cool!</p>
                             <button type="button" class="btn btn-link">2 Comments</button>
                             <button type="button" class="btn btn-link">Bookmark</button>
