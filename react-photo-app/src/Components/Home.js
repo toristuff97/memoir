@@ -3,14 +3,33 @@ import reactstrap from 'reactstrap';
 import climbing from '../assets/climbing.jpg'
 import lady from '../assets/lady.jpg'
 import cathedral from '../assets/cathedral.jpg'
+import brunch from '../assets/brunch.jpg'
+import building from '../assets/building.jpg'
+import cat from '../assets/cat.jpg'
+import couch from '../assets/couch.jpg'
+import living from '../assets/living.jpg'
+import museum from '../assets/museum.jpg'
+import soup from '../assets/soup.jpg'
+import sunflowers from '../assets/sunflowers.jpg'
 import '../_brand.scss';
 
 export default class Home extends Component {
     render() {
+
+        const theme = {
+            primary: 'F8EDEB',
+            info: 'FEC89A',
+            success: 'FCD5CE',
+            warning: 'FFB5A7',
+            danger: 'c8553d',
+            rose: 'c44536',
+            inverse: '772e25'
+          };
+
         return (
             <div>
                 <div className= 'navigation'>
-                    <nav class="navbar navbar-expand-lg">
+                    <nav class="navbar navbar-expand-lg style={color${props => props.theme.warning}}">
                     <div class="container">
                         <a class="navbar-brand" href="javascript:;">Photos</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,8 +84,88 @@ export default class Home extends Component {
                         <button type="button" class="btn btn-link">Bookmark</button>
                     </div>
                 </div>
+                <div class="card" style={{width: '30vw'}}>
+                    <img class="card-img-top" src={building} rel="nofollow" alt="Card image cap"/>
+                    <div class="card-body">
+                        <p class="username">lucasicterine</p>
+                        <p class="caption">Was here yesterday, pretty cool!</p>
+                        <button type="button" class="btn btn-link">2 Comments</button>
+                        <p class="likes">2 Likes</p>
+                        <button type="button" class="btn btn-link">Bookmark</button>
+                    </div>
+                </div>
+                <div class="card" style={{width: '30vw'}}>
+                    <img class="card-img-top" src={brunch} rel="nofollow" alt="Card image cap"/>
+                    <div class="card-body">
+                        <p class="username">fizzamy</p>
+                        <p class="caption">Was here yesterday, pretty cool!</p>
+                        <button type="button" class="btn btn-link">2 Comments</button>
+                        <p class="likes">2 Likes</p>
+                        <button type="button" class="btn btn-link">Bookmark</button>
+                    </div>
+                </div>
+                <div class="card" style={{width: '30vw'}}>
+                    <img class="card-img-top" src={couch} rel="nofollow" alt="Card image cap"/>
+                    <div class="card-body">
+                        <p class="username">dietmangotea</p>
+                        <p class="caption">Was here yesterday, pretty cool!</p>
+                        <button type="button" class="btn btn-link">2 Comments</button>
+                        <p class="likes">2 Likes</p>
+                        <button type="button" class="btn btn-link">Bookmark</button>
+                    </div>
+                </div>
+                <div class="card" style={{width: '30vw'}}>
+                    <img class="card-img-top" src={cat} rel="nofollow" alt="Card image cap"/>
+                    <div class="card-body">
+                        <p class="username">fizzamy</p>
+                        <p class="caption">Was here yesterday, pretty cool!</p>
+                        <button type="button" class="btn btn-link">2 Comments</button>
+                        <p class="likes">2 Likes</p>
+                        <button type="button" class="btn btn-link">Bookmark</button>
+                    </div>
+                </div>
+                <div class="card" style={{width: '30vw'}}>
+                    <img class="card-img-top" src={soup} rel="nofollow" alt="Card image cap"/>
+                    <div class="card-body">
+                        <p class="username">lucasicterine</p>
+                        <p class="caption">Was here yesterday, pretty cool!</p>
+                        <button type="button" class="btn btn-link">2 Comments</button>
+                        <p class="likes">2 Likes</p>
+                        <button type="button" class="btn btn-link">Bookmark</button>
+                    </div>
+                </div>
+                <div class="card" style={{width: '30vw'}}>
+                    <img class="card-img-top" src={sunflowers} rel="nofollow" alt="Card image cap"/>
+                    <div class="card-body">
+                        <p class="username">dietmangotea</p>
+                        <p class="caption">Was here yesterday, pretty cool!</p>
+                        <button type="button" class="btn btn-link">2 Comments</button>
+                        <p class="likes">2 Likes</p>
+                        <button type="button" class="btn btn-link">Bookmark</button>
+                    </div>
+                </div>
+                <div class="card" style={{width: '30vw'}}>
+                    <img class="card-img-top" src={living} rel="nofollow" alt="Card image cap"/>
+                    <div class="card-body">
+                        <p class="username">fizzamy</p>
+                        <p class="caption">Was here yesterday, pretty cool!</p>
+                        <button type="button" class="btn btn-link">2 Comments</button>
+                        <p class="likes">2 Likes</p>
+                        <button type="button" class="btn btn-link">Bookmark</button>
+                    </div>
+                </div>
+                <div class="card" style={{width: '30vw'}}>
+                    <img class="card-img-top" src={museum} rel="nofollow" alt="Card image cap"/>
+                    <div class="card-body">
+                        <p class="username">lucasicterine</p>
+                        <p class="caption">Was here yesterday, pretty cool!</p>
+                        <button type="button" class="btn btn-link">2 Comments</button>
+                        <p class="likes">2 Likes</p>
+                        <button type="button" class="btn btn-link">Bookmark</button>
+                    </div>
                 </div>
             </div>
+        </div>
         )
     }
 }
