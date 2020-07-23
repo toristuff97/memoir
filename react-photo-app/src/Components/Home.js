@@ -15,17 +15,6 @@ import '../_brand.scss';
 
 export default class Home extends Component {
     render() {
-
-        const theme = {
-            primary: 'F8EDEB',
-            info: 'FEC89A',
-            success: 'FCD5CE',
-            warning: 'FFB5A7',
-            danger: 'c8553d',
-            rose: 'c44536',
-            inverse: '772e25'
-          };
-
         return (
             <div>
                 <div className= 'navigation'>
