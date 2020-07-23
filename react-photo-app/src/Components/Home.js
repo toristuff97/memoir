@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import reactstrap from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 import climbing from '../assets/climbing.jpg'
 import lady from '../assets/lady.jpg'
 import cathedral from '../assets/cathedral.jpg'
