@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import reactstrap from 'reactstrap';
-
+import climbing from '../assets/climbing.jpg'
+import lady from '../assets/lady.jpg'
+import cathedral from '../assets/cathedral.jpg'
+import '../_brand.scss';
 
 export default class Home extends Component {
     render() {
@@ -33,7 +36,7 @@ export default class Home extends Component {
                 </div>
                 <div className='feedPhotos'>
                 <div class="card" style={{width: '30vw'}}>
-                    <img class="card-img-top" src="https://images.unsplash.com/photo-1517303650219-83c8b1788c4c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd4c162d27ea317ff8c67255e955e3c8&auto=format&fit=crop&w=2691&q=80" rel="nofollow" alt="Card image cap"/>
+                    <img class="card-img-top" src={cathedral} rel="nofollow" alt="Card image cap"/>
                     <div class="card-body">
                         <p class="username">dietmangotea</p>
                         <p class="caption">Was here yesterday, pretty cool!</p>
@@ -43,9 +46,9 @@ export default class Home extends Component {
                     </div>
                 </div>
                 <div class="card" style={{width: '30vw'}}>
-                    <img class="card-img-top" src="https://images.unsplash.com/photo-1517303650219-83c8b1788c4c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd4c162d27ea317ff8c67255e955e3c8&auto=format&fit=crop&w=2691&q=80" rel="nofollow" alt="Card image cap"/>
+                    <img class="card-img-top" src={lady} rel="nofollow" alt="Card image cap"/>
                     <div class="card-body">
-                        <p class="username">dietmangotea</p>
+                        <p class="username">fizzamy</p>
                         <p class="caption">Was here yesterday, pretty cool!</p>
                         <button type="button" class="btn btn-link">2 Comments</button>
                         <p class="likes">2 Likes</p>
@@ -53,9 +56,9 @@ export default class Home extends Component {
                     </div>
                 </div>
                 <div class="card" style={{width: '30vw'}}>
-                    <img class="card-img-top" src="https://images.unsplash.com/photo-1517303650219-83c8b1788c4c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd4c162d27ea317ff8c67255e955e3c8&auto=format&fit=crop&w=2691&q=80" rel="nofollow" alt="Card image cap"/>
+                    <img class="card-img-top" src={climbing} rel="nofollow" alt="Card image cap"/>
                     <div class="card-body">
-                        <p class="username">dietmangotea</p>
+                        <p class="username">lucasicterine</p>
                         <p class="caption">Was here yesterday, pretty cool!</p>
                         <button type="button" class="btn btn-link">2 Comments</button>
                         <p class="likes">2 Likes</p>
