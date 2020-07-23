@@ -20,7 +20,7 @@ export default class Home extends Component {
                 <div className= 'navigation'>
                     <nav class="navbar navbar-expand-lg navbar-custom">
                     <div class="container">
-                        <a class="navbar-brand" href="javascript:;">Photos</a>
+                        <a class="navbar-brand" style={{fontFamily: "Brush Script MT", fontSize: 40, color: "#c8553d"}} href="javascript:;">Memoir</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-bar navbar-kebab"></span>
                         <span class="navbar-toggler-bar navbar-kebab"></span>
@@ -29,13 +29,13 @@ export default class Home extends Component {
                         <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
-                            <a class="nav-link" href="javascript:;">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}} href="javascript:;">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link" href="javascript:;">Profile</a>
+                            <a class="nav-link" style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}} href="javascript:;">Profile</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link" href="javascript:;">Bookmarks</a>
+                            <a class="nav-link" style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}} href="javascript:;">Bookmarks</a>
                             </li>
                         </ul>
                         </div>
@@ -196,6 +196,11 @@ export default class Home extends Component {
                     </Col>
                 </Row>
             </Container>
+            <br/>
+            <div class="footer" style={{fontFamily: "American Typewriter", color: "#c8553d"}}>
+                <h3 >That's all - for now!</h3>
+            </div>
+            <br/>
             </div>
         </div>
         )
