@@ -39,7 +39,7 @@ export default class Home extends Component {
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
-                            <li class="nav-item active">
+                        <li class="nav-item active">
                             <a class="nav-link" style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}} href="javascript:;">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
