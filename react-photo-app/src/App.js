@@ -12,6 +12,8 @@ function App() {
     <div className="App">
       <Home />
       <Profile1 />
+      <Profile2 />
+      <Profile3 />
     </div>
   );
 }

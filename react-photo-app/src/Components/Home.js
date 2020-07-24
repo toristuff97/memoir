@@ -63,9 +63,7 @@ export default class Home extends Component {
                         <div class="card-body">
                             <button className="likeButton1" class="material-icons" style={{border: "none", backgroundColor: "white"}} onClick={likeThisPicture("likes")}>favorite_border</button>
                             <p class="likes">2 Likes</p>
-                            <Link to='./src/Components/Profile1.js'>
                             <p class="username" style={{fontWeight: "bold"}}>dietmangotea</p>
-                            </Link>
                             <p class="caption">Was here yesterday, pretty cool!</p>
                             <button type="button" class="btn btn-link">2 Comments</button>
                             <button type="button" class="btn btn-link">Bookmark</button>
