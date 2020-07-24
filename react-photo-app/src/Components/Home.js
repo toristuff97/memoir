@@ -15,6 +15,11 @@ import '../_brand.scss';
 
 export default class Home extends Component {
     render() {
+
+        const likeThisPicture = (e) => {
+            document.getElementsByClassName(e).innerHTML = '3 Likes'
+        }
+
         return (
             <div>
                 <div className= 'navigation'>
@@ -49,7 +54,7 @@ export default class Home extends Component {
                     <div class="card" style={{width: '30vw'}}>
                         <img class="card-img-top" src={cathedral} rel="nofollow" alt="Card image cap"/>
                         <div class="card-body">
-                            <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
+                            <button className="likeButton1" class="material-icons" style={{border: "none", backgroundColor: "white"}} onClick={likeThisPicture("likes")}>favorite_border</button>
                             <p class="likes">2 Likes</p>
                             <p class="username" style={{fontWeight: "bold"}}>dietmangotea</p>
                             <p class="caption">Was here yesterday, pretty cool!</p>
