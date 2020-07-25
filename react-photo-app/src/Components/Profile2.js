@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Container, Row, Col } from 'reactstrap';
 import lady from '../assets/lady.jpg'
+import cat from '../assets/cat.jpg'
+import brunch from '../assets/brunch.jpg'
 
 export default class Profile2 extends Component {
     render() {
@@ -31,13 +33,63 @@ export default class Profile2 extends Component {
                         </div>
                     </div>
                     </nav>
-                </div>
-                <div className="profileInfo">
-                    <img src={lady} class="rounded-circle" alt="profile picture" style={{width: '13vw', height: '19vh'}}/>
-                    <p class="user">fizzamy</p>
-                    <p class="bio">Bio bio bio bio bio</p>
-                    <p class="follows">2 Followers | 2 Following</p>
-                    <button>Follow</button>
+                </div><div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <div className="profileInfo">
+                                <img src={lady} class="rounded-circle" alt="profile picture" style={{width: '13vw', height: '19vh'}}/>
+                                <p class="user">fizzamy</p>
+                                <p class="bio">Bio bio bio bio bio</p>
+                                <p class="follows">2 Followers | 2 Following</p>
+                                <button>Follow</button>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                        <Container>
+                                <Row>
+                                <Col>
+                                <div class="card" style={{width: '30vw'}}>
+                                    <img class="card-img-top" src={lady} rel="nofollow" alt="Card image cap"/>
+                                    <div class="card-body">
+                                        <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
+                                        <p class="likes">2 Likes</p>
+                                        <p class="username" style={{fontWeight: "bold"}}>fizzamy</p>
+                                        <p class="caption">Was here yesterday, pretty cool!</p>
+                                        <button type="button" class="btn btn-link">2 Comments</button>
+                                        <button type="button" class="btn btn-link">Bookmark</button>
+                                    </div>
+                                </div>
+                                </Col>
+                                <Col>
+                                <div class="card" style={{width: '30vw'}}>
+                                    <img class="card-img-top" src={brunch} rel="nofollow" alt="Card image cap"/>
+                                    <div class="card-body">
+                                        <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
+                                        <p class="likes">2 Likes</p>
+                                        <p class="username" style={{fontWeight: "bold"}}>fizzamy</p>
+                                        <p class="caption">Was here yesterday, pretty cool!</p>
+                                        <button type="button" class="btn btn-link">2 Comments</button>
+                                        <button type="button" class="btn btn-link">Bookmark</button>
+                                    </div>
+                                </div>
+                                </Col>
+                                <Col>
+                                <div class="card" style={{width: '30vw'}}>
+                                    <img class="card-img-top" src={cat} rel="nofollow" alt="Card image cap"/>
+                                    <div class="card-body">
+                                        <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
+                                        <p class="likes">2 Likes</p>
+                                        <p class="username" style={{fontWeight: "bold"}}>fizzamy</p>
+                                        <p class="caption">Was here yesterday, pretty cool!</p>
+                                        <button type="button" class="btn btn-link">2 Comments</button>
+                                        <button type="button" class="btn btn-link">Bookmark</button>
+                                    </div>
+                                </div>
+                                </Col>
+                            </Row>
+                            </Container>
+                        </div>
+                    </div>
                 </div>
             </div>
             </div>
