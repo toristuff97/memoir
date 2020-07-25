@@ -35,7 +35,7 @@ export default class Profile2 extends Component {
                     </nav>
                 </div><div class="container">
                     <div class="row">
-                        <div class="col-sm">
+                        <div class=".col-">
                             <div className="profileInfo">
                                 <img src={lady} class="rounded-circle" alt="profile picture" style={{width: '13vw', height: '19vh'}}/>
                                 <p class="user">fizzamy</p>
@@ -44,7 +44,7 @@ export default class Profile2 extends Component {
                                 <button>Follow</button>
                             </div>
                         </div>
-                        <div class="col-sm">
+                        <div class="col-10">
                         <Container>
                                 <Row>
                                 <Col>
