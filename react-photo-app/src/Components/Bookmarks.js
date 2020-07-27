@@ -6,10 +6,13 @@ import {
     Route,
     Link
   } from "react-router-dom";
+  import soup from '../assets/soup.jpg';
+  import living from '../assets/living.jpg';
+  import brunch from '../assets/brunch.jpg';
 import Home from './Home';
+import Profile1 from './Profile1';
 import Profile2 from './Profile2';
 import Profile3 from './Profile3';
-import Bookmarks from './Bookmarks';
 
 export default class Bookmarks extends Component {
     render() {
@@ -32,9 +35,11 @@ export default class Bookmarks extends Component {
                             <a class="nav-link" style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}} href="javascript:;">Home <span class="sr-only">(current)</span></a>
                             </Link>
                             </li>
-                            {/* <li class="nav-item">
+                            <li class="nav-item">
+                            <Link to='Profile1' style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}}>
                             <a class="nav-link" style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}} href="javascript:;">Profile</a>
-                            </li> */}
+                            </Link>
+                            </li>
                             <li class="nav-item">
                             <Link to='/Bookmarks' style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}}>
                             <a class="nav-link" style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}} href="javascript:;">Bookmarks</a>
@@ -47,7 +52,7 @@ export default class Bookmarks extends Component {
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class=".col-">
+                        {/* <div class=".col-">
                             <div className="profileInfo">
                                 <img src={tea} class="rounded-circle" alt="profile picture" style={{width: '13vw', height: '19vh'}}/>
                                 <p class="user">dietmangotea</p>
@@ -55,17 +60,19 @@ export default class Bookmarks extends Component {
                                 <p class="follows">2 Followers | 2 Following</p>
                                 <button onClick={this.logOut}>Log Out</button>
                             </div>
-                        </div>
+                        </div> */}
                         <div class="col-10">
                         <Container>
                                 <Row>
                                 <Col>
                                 <div class="card" style={{width: '30vw'}}>
-                                    <img class="card-img-top" src={cathedral} rel="nofollow" alt="Card image cap"/>
+                                    <img class="card-img-top" src={soup} rel="nofollow" alt="Card image cap"/>
                                     <div class="card-body">
-                                        <button className="likeButton1" class="material-icons" style={{border: "none", backgroundColor: "white"}}>favorite_border</button>
+                                        <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
                                         <p class="likes">2 Likes</p>
-                                        <p class="username" style={{fontWeight: "bold"}}>dietmangotea</p>
+                                        <Link to="Profile3" style={{fontFamily: "American Typewriter", color: "#c8553d"}}>
+                                        <p class="username" style={{fontWeight: "bold"}}>lucasicterine</p>
+                                        </Link>
                                         <p class="caption">Was here yesterday, pretty cool!</p>
                                         <button type="button" class="btn btn-link">2 Comments</button>
                                         <button type="button" class="btn btn-link">Bookmark</button>
@@ -74,11 +81,13 @@ export default class Bookmarks extends Component {
                                 </Col>
                                 <Col>
                                 <div class="card" style={{width: '30vw'}}>
-                                    <img class="card-img-top" src={couch} rel="nofollow" alt="Card image cap"/>
+                                    <img class="card-img-top" src={brunch} rel="nofollow" alt="Card image cap"/>
                                     <div class="card-body">
                                         <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
                                         <p class="likes">2 Likes</p>
-                                        <p class="username" style={{fontWeight: "bold"}}>dietmangotea</p>
+                                        <Link to='/Profile2' style={{fontFamily: "American Typewriter", color: "#c8553d"}}>
+                                        <p class="username" style={{fontWeight: "bold"}}>fizzamy</p>
+                                        </Link>
                                         <p class="caption">Was here yesterday, pretty cool!</p>
                                         <button type="button" class="btn btn-link">2 Comments</button>
                                         <button type="button" class="btn btn-link">Bookmark</button>
@@ -87,11 +96,13 @@ export default class Bookmarks extends Component {
                                 </Col>
                                 <Col>
                                 <div class="card" style={{width: '30vw'}}>
-                                    <img class="card-img-top" src={sunflowers} rel="nofollow" alt="Card image cap"/>
+                                    <img class="card-img-top" src={living} rel="nofollow" alt="Card image cap"/>
                                     <div class="card-body">
-                                        <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
+                                        <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button> 
                                         <p class="likes">2 Likes</p>
-                                        <p class="username" style={{fontWeight: "bold"}}>dietmangotea</p>
+                                        <Link to='/Profile2' style={{fontFamily: "American Typewriter", color: "#c8553d"}}>
+                                        <p class="username" style={{fontWeight: "bold"}}>fizzamy</p>
+                                        </Link>
                                         <p class="caption">Was here yesterday, pretty cool!</p>
                                         <button type="button" class="btn btn-link">2 Comments</button>
                                         <button type="button" class="btn btn-link">Bookmark</button>
