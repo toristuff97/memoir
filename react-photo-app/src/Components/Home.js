@@ -13,12 +13,13 @@ import museum from '../assets/museum.jpg'
 import soup from '../assets/soup.jpg'
 import sunflowers from '../assets/sunflowers.jpg'
 import '../_brand.scss';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+// import {
+//     BrowserRouter as Router,
+//     Switch,
+//     Route,
+//     Link
+//   } from "react-router-dom";
+import {Link} from 'react-router';
 
 export default class Home extends Component {
     render() {
