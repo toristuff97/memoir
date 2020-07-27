@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
-// import { Link } from 'react-router';
+import { LinkContainer } from 'react-router-bootstrap'
 import climbing from '../assets/climbing.jpg'
 import lady from '../assets/lady.jpg'
 import cathedral from '../assets/cathedral.jpg'
@@ -29,6 +29,7 @@ export default class Home extends Component {
 
         return (
             <div>
+                <Router>
                 <div className= 'navigation'>
                     <nav class="navbar navbar-expand-lg navbar-custom">
                     <div class="container">
@@ -41,19 +42,26 @@ export default class Home extends Component {
                         <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}} href="javascript:;">Home <span class="sr-only">(current)</span></a>
+                            <LinkContainer to='Home.js' style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}}>
+                            <a class="nav-link" href="javascript:;">Home <span class="sr-only">(current)</span></a>
+                            </LinkContainer>
                             </li>
                             <li class="nav-item">
+                            <LinkContainer to='Profile1.js' style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}}>
                             <a class="nav-link" style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}} href="javascript:;">Profile</a>
+                            </LinkContainer>
                             </li>
                             <li class="nav-item">
+                            <LinkContainer to='../Components/Bookmarks.js' style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}}>
                             <a class="nav-link" style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}} href="javascript:;">Bookmarks</a>
+                            </LinkContainer>
                             </li>
                         </ul>
                         </div>
                     </div>
                     </nav>
                 </div>
+                </Router>
                 <div className='feedPhotos'>
                 <Container>
                 <Row>
@@ -218,3 +226,6 @@ export default class Home extends Component {
         )
     }
 }
+
+
+// React Router Bootstrap Source: https://stackoverflow.com/questions/40919037/react-router-bootstrap-linkcontainer
