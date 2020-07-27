@@ -169,7 +169,9 @@ export default class Home extends Component {
                         <div class="card-body">
                             <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
                             <p class="likes">2 Likes</p>
+                            <Link to='/Profile2' style={{fontFamily: "American Typewriter", color: "#c8553d"}}>
                             <p class="username" style={{fontWeight: "bold"}}>fizzamy</p>
+                            </Link>
                             <p class="caption">Was here yesterday, pretty cool!</p>
                             <button type="button" class="btn btn-link">2 Comments</button>
                             <button type="button" class="btn btn-link">Bookmark</button>
@@ -182,7 +184,9 @@ export default class Home extends Component {
                         <div class="card-body">
                             <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
                             <p class="likes">2 Likes</p>
+                            <Link to='/Profile3' style={{fontFamily: "American Typewriter", color: "#c8553d"}}>
                             <p class="username" style={{fontWeight: "bold"}}>lucasicterine</p>
+                            </Link>
                             <p class="caption">Was here yesterday, pretty cool!</p>
                             <button type="button" class="btn btn-link">2 Comments</button>
                             <button type="button" class="btn btn-link">Bookmark</button>
@@ -195,7 +199,9 @@ export default class Home extends Component {
                         <div class="card-body">
                             <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
                             <p class="likes">2 Likes</p>
+                            <Link to='/Profile1' style={{fontFamily: "American Typewriter", color: "#c8553d"}}>
                             <p class="username" style={{fontWeight: "bold"}}>dietmangotea</p>
+                            </Link>
                             <p class="caption">Was here yesterday, pretty cool!</p>
                             <button type="button" class="btn btn-link">2 Comments</button>
                             <button type="button" class="btn btn-link">Bookmark</button>
@@ -210,7 +216,9 @@ export default class Home extends Component {
                         <div class="card-body">
                             <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button> 
                             <p class="likes">2 Likes</p>
+                            <Link to='/Profile2' style={{fontFamily: "American Typewriter", color: "#c8553d"}}>
                             <p class="username" style={{fontWeight: "bold"}}>fizzamy</p>
+                            </Link>
                             <p class="caption">Was here yesterday, pretty cool!</p>
                             <button type="button" class="btn btn-link">2 Comments</button>
                             <button type="button" class="btn btn-link">Bookmark</button>
@@ -223,7 +231,9 @@ export default class Home extends Component {
                         <div class="card-body">
                             <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
                             <p class="likes">2 Likes</p>
+                            <Link to='/Profile3' style={{fontFamily: "American Typewriter", color: "#c8553d"}}>
                             <p class="username" style={{fontWeight: "bold"}}>lucasicterine</p>
+                            </Link>
                             <p class="caption">Was here yesterday, pretty cool!</p>
                             <button type="button" class="btn btn-link">2 Comments</button>
                             <button type="button" class="btn btn-link">Bookmark</button>

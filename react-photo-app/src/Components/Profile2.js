@@ -3,10 +3,17 @@ import { Container, Row, Col } from 'reactstrap';
 import lady from '../assets/lady.jpg'
 import cat from '../assets/cat.jpg'
 import brunch from '../assets/brunch.jpg'
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 export default class Profile2 extends Component {
     render() {
         return (
+            <Router>
             <div>
                 <div>
                 <div className= 'navigation'>
@@ -92,7 +99,15 @@ export default class Profile2 extends Component {
                     </div>
                 </div>
             </div>
+            <Switch>
+                <Route exact path='/' Component={Home}/>
+                <Route exact path='/Profile1' Component={Profile1}/>
+                <Route exact path='/Profile2' Component={Profile2}/>
+                <Route exact path='/Profile3' Component={Profile3}/>
+                <Route exact path='/Bookmarks' Componen={Bookmarks}/>
+            </Switch>
             </div>
+            </Router>
         )
     }
 }
