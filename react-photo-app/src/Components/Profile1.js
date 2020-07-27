@@ -6,6 +6,18 @@ import couch from '../assets/couch.jpg'
 import sunflowers from '../assets/sunflowers.jpg'
 
 export default class Profile1 extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            loggedIn: true
+        }
+    }
+
+    logOut = () => {
+        this.setState({loggedIn: false});
+    }
+
     render() {
         return (
             <div>
@@ -42,7 +54,7 @@ export default class Profile1 extends Component {
                                 <p class="user">dietmangotea</p>
                                 <p class="bio">Bio bio bio bio bio</p>
                                 <p class="follows">2 Followers | 2 Following</p>
-                                <button>Follow</button>
+                                <button onClick={this.logOut}>Log Out</button>
                             </div>
                         </div>
                         <div class="col-10">
