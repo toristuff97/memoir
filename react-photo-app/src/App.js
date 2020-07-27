@@ -11,9 +11,9 @@ function App() {
   return (
     <div className="App">
       <Home />
-      <Profile1 />
+      {/* <Profile1 />
       <Profile2 />
-      <Profile3 />
+      <Profile3 /> */}
     </div>
   );
 }
