@@ -6,14 +6,42 @@ import Profile2 from './Components/Profile2';
 import Profile3 from './Components/Profile3';
 import Bookmarks from './Components/Bookmarks';
 import { LinkContainer } from "react-router-bootstrap";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Home />
-      {/* <Profile1 />
-      <Profile2 />
-      <Profile3 /> */}
+      <Router>
+        {/* <Home /> */}
+
+        <Switch>
+          <Route exact path="/">
+            <Home/>
+          </Route>
+
+          <Route exact path="/Profile1">
+            <Profile1/>
+          </Route>
+
+          <Route exact path="/Profile2">
+            <Profile2/>
+          </Route>
+
+          <Route exact path="/Profile3">
+            <Profile3/>
+          </Route>
+
+          <Route exact path="/Bookmarks">
+            <Bookmarks/>
+          </Route>
+          
+        </Switch>
+      </Router>
     </div>
   );
 }
