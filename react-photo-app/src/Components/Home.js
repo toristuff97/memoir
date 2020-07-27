@@ -13,13 +13,16 @@ import museum from '../assets/museum.jpg'
 import soup from '../assets/soup.jpg'
 import sunflowers from '../assets/sunflowers.jpg'
 import '../_brand.scss';
-// import {
-//     BrowserRouter as Router,
-//     Switch,
-//     Route,
-//     Link
-//   } from "react-router-dom";
-import {Link} from 'react-router';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
+import Profile1 from './Profile1';
+import Profile2 from './Profile2';
+import Profile3 from './Profile3';
+import Bookmarks from './Bookmarks';
 
 export default class Home extends Component {
     render() {
@@ -29,8 +32,8 @@ export default class Home extends Component {
         }
 
         return (
+            <Router>
             <div>
-                <Router>
                 <div className= 'navigation'>
                     <nav class="navbar navbar-expand-lg navbar-custom">
                     <div class="container">
@@ -43,26 +46,26 @@ export default class Home extends Component {
                         <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <LinkContainer to='Home.js' style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}}>
+                            <Link to='/Home' style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}}>
                             <a class="nav-link" href="javascript:;">Home <span class="sr-only">(current)</span></a>
-                            </LinkContainer>
+                            </Link>
                             </li>
                             <li class="nav-item">
-                            <LinkContainer to='Profile1.js' style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}}>
+                            <Link to='/Profile1' style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}}>
                             <a class="nav-link" style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}} href="javascript:;">Profile</a>
-                            </LinkContainer>
+                            </Link>
                             </li>
                             <li class="nav-item">
-                            <LinkContainer to='../Components/Bookmarks.js' style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}}>
+                            <Link to='/Bookmarks' style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}}>
                             <a class="nav-link" style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}} href="javascript:;">Bookmarks</a>
-                            </LinkContainer>
+                            </Link>
                             </li>
                         </ul>
                         </div>
                     </div>
                     </nav>
+                    
                 </div>
-                </Router>
                 <div className='feedPhotos'>
                 <Container>
                 <Row>
@@ -223,7 +226,15 @@ export default class Home extends Component {
             </div>
             <br/>
             </div>
+            <Switch>
+                <Route exact path='/' Component={Home}/>
+                <Route exact path='/Profile1' Component={Profile1}/>
+                <Route exact path='/Profile2' Component={Profile2}/>
+                <Route exact path='/Profile3' Component={Profile3}/>
+                <Route exact path='/Bookmarks' Componen={Bookmarks}/>
+            </Switch>
         </div>
+        </Router>
         )
     }
 }
