@@ -9,6 +9,10 @@ import {
     Route,
     Link
   } from "react-router-dom";
+import Home from './Home';
+import Profile1 from './Profile1';
+import Profile3 from './Profile3';
+import Bookmarks from './Bookmarks';
 
 export default class Profile2 extends Component {
     render() {
@@ -28,7 +32,7 @@ export default class Profile2 extends Component {
                         <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                         <li class="nav-item active">
-                        <Link to='/Home' style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}}>
+                            <Link to='/Home' style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}}>
                             <a class="nav-link" style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}} href="javascript:;">Home <span class="sr-only">(current)</span></a>
                             </Link>
                             </li>

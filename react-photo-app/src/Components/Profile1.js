@@ -4,6 +4,16 @@ import tea from '../assets/tea.jpg'
 import cathedral from '../assets/cathedral.jpg'
 import couch from '../assets/couch.jpg'
 import sunflowers from '../assets/sunflowers.jpg'
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
+import Home from './Home';
+import Profile2 from './Profile2';
+import Profile3 from './Profile3';
+import Bookmarks from './Bookmarks';
 
 export default class Profile1 extends Component {
 
@@ -20,6 +30,7 @@ export default class Profile1 extends Component {
 
     render() {
         return (
+            <Router>
             <div>
                 <div className= 'navigation'>
                     <nav class="navbar navbar-expand-lg navbar-custom">
@@ -33,13 +44,17 @@ export default class Profile1 extends Component {
                         <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                         <li class="nav-item active">
+                            <Link to='/Home' style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}}>
                             <a class="nav-link" style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}} href="javascript:;">Home <span class="sr-only">(current)</span></a>
+                            </Link>
                             </li>
                             {/* <li class="nav-item">
                             <a class="nav-link" style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}} href="javascript:;">Profile</a>
                             </li> */}
                             <li class="nav-item">
+                            <Link to='/Bookmarks' style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}}>
                             <a class="nav-link" style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}} href="javascript:;">Bookmarks</a>
+                            </Link>
                             </li>
                         </ul>
                         </div>
@@ -104,7 +119,15 @@ export default class Profile1 extends Component {
                         </div>
                     </div>
                 </div>
+                <Switch>
+                <Route exact path='/' Component={Home}/>
+                <Route exact path='/Profile1' Component={Profile1}/>
+                <Route exact path='/Profile2' Component={Profile2}/>
+                <Route exact path='/Profile3' Component={Profile3}/>
+                <Route exact path='/Bookmarks' Componen={Bookmarks}/>
+            </Switch>
             </div>
+            </Router>
         )
     }
 }
