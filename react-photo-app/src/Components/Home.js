@@ -255,6 +255,7 @@ export default class Home extends Component {
             </div>
             <br/>
             </div>
+            {/* Switch to link to each Component */}
             <Switch>
                 <Route exact path='/' Component={Home}/>
                 <Route exact path='/Profile1' Component={Profile1}/>
