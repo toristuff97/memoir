@@ -32,10 +32,8 @@ export default class Profile3 extends Component {
                             <a class="nav-link" style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}} href="javascript:;">Home <span class="sr-only">(current)</span></a>
                             </Link>
                             </li>
-                            {/* <li class="nav-item">
-                            <a class="nav-link" style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}} href="javascript:;">Profile</a>
-                            </li> */}
                             <li class="nav-item">
+                                {/* Link to the Bookmarks page */}
                             <Link to="/Bookmarks" style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}}>
                             <a class="nav-link" style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}} href="javascript:;">Bookmarks</a>
                             </Link>
