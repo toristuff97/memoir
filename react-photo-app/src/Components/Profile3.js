@@ -104,7 +104,7 @@ export default class Profile3 extends Component {
                                         <Link to='/Profile3' style={{fontFamily: "American Typewriter", color: "#c8553d"}}>
                                         <p class="username" style={{fontWeight: "bold"}}>lucasicterine</p>
                                         </Link>
-                                        <p class="caption">Was here yesterday, pretty cool!</p>
+                                        <p class="caption">Not too shabby</p>
                                         <button type="button" class="btn btn-link">2 Comments</button>
                                         <button type="button" class="btn btn-link">Bookmark</button>
                                     </div>
