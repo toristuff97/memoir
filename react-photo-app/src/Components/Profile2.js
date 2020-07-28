@@ -19,6 +19,7 @@ import Bookmarks from './Bookmarks';
 export default class Profile2 extends Component {
     render() {
         return (
+            // Starting Router to navigate from navbar
             <Router>
             <div>
                 <div>
