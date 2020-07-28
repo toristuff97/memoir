@@ -4,6 +4,7 @@ import lucas from '../assets/lucas.jpg'
 import climbing from '../assets/climbing.jpg'
 import soup from '../assets/soup.jpg'
 import museum from '../assets/museum.jpg'
+import building from '../assets/building.jpg';
 import { Link } from 'react-router-dom';
 
 export default class Profile3 extends Component {
@@ -93,6 +94,23 @@ export default class Profile3 extends Component {
                                 </div>
                                 </Col>
                             </Row>
+                            <Row>
+                                <Col>
+                                <div class="card" style={{width: '30vw'}}>
+                                    <img class="card-img-top" src={building} rel="nofollow" alt="Card image cap"/>
+                                    <div class="card-body">
+                                        <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
+                                        <p class="likes">2 Likes</p>
+                                        <Link to='/Profile3' style={{fontFamily: "American Typewriter", color: "#c8553d"}}>
+                                        <p class="username" style={{fontWeight: "bold"}}>lucasicterine</p>
+                                        </Link>
+                                        <p class="caption">Was here yesterday, pretty cool!</p>
+                                        <button type="button" class="btn btn-link">2 Comments</button>
+                                        <button type="button" class="btn btn-link">Bookmark</button>
+                                    </div>
+                                </div>
+                                </Col>
+                                </Row>
                             </Container>
                         </div>
                     </div>
