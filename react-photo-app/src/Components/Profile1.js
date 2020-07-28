@@ -25,13 +25,14 @@ export default class Profile1 extends Component {
             loggedIn: true
         }
     }
-
+    // Function for logging the user out
     logOut = () => {
         this.setState({loggedIn: false});
     }
 
     render() {
         return (
+            // Starting router for links in navbar
             <Router>
             <div>
                 <div className= 'navigation'>
