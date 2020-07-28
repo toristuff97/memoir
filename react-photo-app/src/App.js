@@ -20,8 +20,7 @@ function App() {
     <div className="App">
       {/* Starting the Router to switch between Component Pages */}
       <Router>
-        {/* <Home /> */}
-
+        {/* Specifying which page to show when each path is selected/in the url */}
         <Switch>
           <Route exact path="/">
             <Home/>
