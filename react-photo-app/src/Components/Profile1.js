@@ -82,7 +82,7 @@ export default class Profile1 extends Component {
                                         <button className="likeButton1" class="material-icons" style={{border: "none", backgroundColor: "white"}}>favorite_border</button>
                                         <p class="likes">2 Likes</p>
                                         <p class="username" style={{fontWeight: "bold"}}>dietmangotea</p>
-                                        <p class="caption">Was here yesterday, pretty cool!</p>
+                                        <p class="caption">The view from up here...</p>
                                         <button type="button" class="btn btn-link">2 Comments</button>
                                         <button type="button" class="btn btn-link">Bookmark</button>
                                     </div>
@@ -95,7 +95,7 @@ export default class Profile1 extends Component {
                                         <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
                                         <p class="likes">2 Likes</p>
                                         <p class="username" style={{fontWeight: "bold"}}>dietmangotea</p>
-                                        <p class="caption">Was here yesterday, pretty cool!</p>
+                                        <p class="caption">Almost done decorating the living room!</p>
                                         <button type="button" class="btn btn-link">2 Comments</button>
                                         <button type="button" class="btn btn-link">Bookmark</button>
                                     </div>
@@ -108,7 +108,7 @@ export default class Profile1 extends Component {
                                         <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
                                         <p class="likes">2 Likes</p>
                                         <p class="username" style={{fontWeight: "bold"}}>dietmangotea</p>
-                                        <p class="caption">Was here yesterday, pretty cool!</p>
+                                        <p class="caption">Here comes the sun</p>
                                         <button type="button" class="btn btn-link">2 Comments</button>
                                         <button type="button" class="btn btn-link">Bookmark</button>
                                     </div>

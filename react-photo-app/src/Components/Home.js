@@ -78,7 +78,7 @@ export default class Home extends Component {
                             <Link to='/Profile1' style={{fontFamily: "American Typewriter", color: "#c8553d"}}>
                             <p class="username" style={{fontWeight: "bold"}}>dietmangotea</p>
                             </Link>
-                            <p class="caption">Was here yesterday, pretty cool!</p>
+                            <p class="caption">The view from up here...</p>
                             <button type="button" class="btn btn-link">2 Comments</button>
                             <button type="button" class="btn btn-link">Bookmark</button>
                         </div>
@@ -155,7 +155,7 @@ export default class Home extends Component {
                             <Link to='/Profile1' style={{fontFamily: "American Typewriter", color: "#c8553d"}}>
                             <p class="username" style={{fontWeight: "bold"}}>dietmangotea</p>
                             </Link>
-                            <p class="caption">Was here yesterday, pretty cool!</p>
+                            <p class="caption">Almost done decorating the living room!</p>
                             <button type="button" class="btn btn-link">2 Comments</button>
                             <button type="button" class="btn btn-link">Bookmark</button>
                         </div>
@@ -202,7 +202,7 @@ export default class Home extends Component {
                             <Link to='/Profile1' style={{fontFamily: "American Typewriter", color: "#c8553d"}}>
                             <p class="username" style={{fontWeight: "bold"}}>dietmangotea</p>
                             </Link>
-                            <p class="caption">Was here yesterday, pretty cool!</p>
+                            <p class="caption">Here comes the sun</p>
                             <button type="button" class="btn btn-link">2 Comments</button>
                             <button type="button" class="btn btn-link">Bookmark</button>
                         </div>
