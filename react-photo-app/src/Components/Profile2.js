@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 import lady from '../assets/lady.jpg'
 import cat from '../assets/cat.jpg'
 import brunch from '../assets/brunch.jpg'
+import living from '../assets/living.jpg';
 import {
     BrowserRouter as Router,
     Switch,
@@ -69,7 +70,7 @@ export default class Profile2 extends Component {
                                         <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
                                         <p class="likes">2 Likes</p>
                                         <p class="username" style={{fontWeight: "bold"}}>fizzamy</p>
-                                        <p class="caption">Was here yesterday, pretty cool!</p>
+                                        <p class="caption">New profile pic!</p>
                                         <button type="button" class="btn btn-link">2 Comments</button>
                                         <button type="button" class="btn btn-link">Bookmark</button>
                                     </div>
@@ -82,7 +83,7 @@ export default class Profile2 extends Component {
                                         <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
                                         <p class="likes">2 Likes</p>
                                         <p class="username" style={{fontWeight: "bold"}}>fizzamy</p>
-                                        <p class="caption">Was here yesterday, pretty cool!</p>
+                                        <p class="caption">Brunch with besties</p>
                                         <button type="button" class="btn btn-link">2 Comments</button>
                                         <button type="button" class="btn btn-link">Bookmark</button>
                                     </div>
@@ -95,13 +96,30 @@ export default class Profile2 extends Component {
                                         <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
                                         <p class="likes">2 Likes</p>
                                         <p class="username" style={{fontWeight: "bold"}}>fizzamy</p>
-                                        <p class="caption">Was here yesterday, pretty cool!</p>
+                                        <p class="caption">My baby :3</p>
                                         <button type="button" class="btn btn-link">2 Comments</button>
                                         <button type="button" class="btn btn-link">Bookmark</button>
                                     </div>
                                 </div>
                                 </Col>
                             </Row>
+                            <Row>
+                                <Col>
+                                <div class="card" style={{width: '30vw'}}>
+                                    <img class="card-img-top" src={living} rel="nofollow" alt="Card image cap"/>
+                                    <div class="card-body">
+                                        <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button> 
+                                        <p class="likes">2 Likes</p>
+                                        <Link to='/Profile2' style={{fontFamily: "American Typewriter", color: "#c8553d"}}>
+                                        <p class="username" style={{fontWeight: "bold"}}>fizzamy</p>
+                                        </Link>
+                                        <p class="caption">Was here yesterday, pretty cool!</p>
+                                        <button type="button" class="btn btn-link">2 Comments</button>
+                                        <button type="button" class="btn btn-link">Bookmark</button>
+                                    </div>
+                                </div>
+                                </Col>
+                                </Row>
                             </Container>
                         </div>
                     </div>
