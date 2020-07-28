@@ -1,4 +1,4 @@
-// Importing React depencencies and images for Profile2
+// Importing React depencencies and images and other components for Profile2
 import React, { Component } from 'react'
 import { Container, Row, Col } from 'reactstrap';
 import lady from '../assets/lady.jpg'
