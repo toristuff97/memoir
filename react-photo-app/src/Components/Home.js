@@ -187,7 +187,7 @@ export default class Home extends Component {
                             <Link to='/Profile3' style={{fontFamily: "American Typewriter", color: "#c8553d"}}>
                             <p class="username" style={{fontWeight: "bold"}}>lucasicterine</p>
                             </Link>
-                            <p class="caption">Was here yesterday, pretty cool!</p>
+                            <p class="caption">Call me Chef Lucas B)</p>
                             <button type="button" class="btn btn-link">2 Comments</button>
                             <button type="button" class="btn btn-link">Bookmark</button>
                         </div>
@@ -234,7 +234,7 @@ export default class Home extends Component {
                             <Link to='/Profile3' style={{fontFamily: "American Typewriter", color: "#c8553d"}}>
                             <p class="username" style={{fontWeight: "bold"}}>lucasicterine</p>
                             </Link>
-                            <p class="caption">Was here yesterday, pretty cool!</p>
+                            <p class="caption">A little dramatic, but I like it.</p>
                             <button type="button" class="btn btn-link">2 Comments</button>
                             <button type="button" class="btn btn-link">Bookmark</button>
                         </div>
