@@ -128,6 +128,7 @@ export default class Profile2 extends Component {
                     </div>
                 </div>
             </div>
+            {/* Added switch for router, I don't know if i need it here but I have it. */}
             <Switch>
                 <Route exact path='/' Component={Home}/>
                 <Route exact path='/Profile1' Component={Profile1}/>
