@@ -27,12 +27,13 @@ import Bookmarks from './Bookmarks';
 
 export default class Home extends Component {
     render() {
-
+        // function for liking a photo
         const likeThisPicture = (e) => {
             document.getElementsByClassName(e).innerHTML = '3 Likes'
         }
 
         return (
+            // Router to link to profile pages and bookmarks page
             <Router>
             <div>
                 <div className= 'navigation'>
@@ -47,7 +48,8 @@ export default class Home extends Component {
                         <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <Link to='/Home' style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}}>
+                            {/* Link to Homepage */}
+                            <Link to='/' style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}}>
                             <a class="nav-link" href="javascript:;">Home <span class="sr-only">(current)</span></a>
                             </Link>
                             </li>
