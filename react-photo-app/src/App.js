@@ -1,3 +1,4 @@
+// Importing dependencies for React and Profile and Home and Bookmarks Components
 import React from 'react';
 import './App.css';
 import Home from './Components/Home';
@@ -39,7 +40,7 @@ function App() {
           <Route exact path="/Bookmarks">
             <Bookmarks/>
           </Route>
-          
+
         </Switch>
       </Router>
     </div>
