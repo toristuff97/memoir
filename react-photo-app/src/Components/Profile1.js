@@ -1,3 +1,4 @@
+// Importing React dependencies and images and components for profile1 (user profile)
 import React, { Component } from 'react'
 import { Container, Row, Col } from 'reactstrap';
 import tea from '../assets/tea.jpg'
@@ -17,6 +18,7 @@ import Bookmarks from './Bookmarks';
 
 export default class Profile1 extends Component {
 
+    // State for whether or not the user is currently logged in or not
     constructor(props) {
         super(props);
         this.state = {
