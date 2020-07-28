@@ -59,7 +59,7 @@ export default class Profile2 extends Component {
                                 <p class="user">fizzamy</p>
                                 <p class="bio">Bio bio bio bio bio</p>
                                 <p class="follows">2 Followers | 2 Following</p>
-                                <button>Follow</button>
+                                <button>Following</button>
                             </div>
                         </div>
                         <div class="col-10">
