@@ -54,11 +54,13 @@ export default class Home extends Component {
                             </Link>
                             </li>
                             <li class="nav-item">
+                            {/* Link to profile1 */}
                             <Link to='/Profile1' style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}}>
                             <a class="nav-link" style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}} href="javascript:;">Profile</a>
                             </Link>
                             </li>
                             <li class="nav-item">
+                            {/* Link to bookmarks */}
                             <Link to='/Bookmarks' style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}}>
                             <a class="nav-link" style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}} href="javascript:;">Bookmarks</a>
                             </Link>
