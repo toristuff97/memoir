@@ -66,6 +66,7 @@ export default class Profile1 extends Component {
                 <div class="container">
                     <div class="row">
                         <div class=".col-">
+                            {/* Profile info starts here */}
                             <div className="profileInfo">
                                 <img src={tea} class="rounded-circle" alt="profile picture" style={{width: '13vw', height: '19vh'}}/>
                                 <p class="user">dietmangotea</p>
