@@ -71,6 +71,7 @@ export default class Home extends Component {
                     </nav>
                     
                 </div>
+                {/* Photo feed grid starts here, usernames on photos link to each profile */}
                 <div className='feedPhotos'>
                 <Container>
                 <Row>
@@ -248,6 +249,7 @@ export default class Home extends Component {
                 </Row>
             </Container>
             <br/>
+            {/* Footer at the end of the grid */}
             <div class="footer" style={{fontFamily: "American Typewriter", color: "#c8553d"}}>
                 <h3 >That's all - for now!</h3>
             </div>
