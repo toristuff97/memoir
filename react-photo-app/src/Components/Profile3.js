@@ -42,9 +42,11 @@ export default class Profile3 extends Component {
                         </div>
                     </div>
                     </nav>
-                </div><div class="container">
+                </div>
+                <div class="container">
                     <div class="row">
                         <div class=".col-">
+                            {/* Profile information starts here */}
                             <div className="profileInfo">
                                 <img src={lucas} class="rounded-circle" alt="profile picture" style={{width: '13vw', height: '19vh'}}/>
                                 <p class="user">lucasicterine</p>
@@ -54,6 +56,7 @@ export default class Profile3 extends Component {
                             </div>
                         </div>
                         <div class="col-10">
+                            {/* Photos for profile3 start here */}
                         <Container>
                                 <Row>
                                 <Col>
