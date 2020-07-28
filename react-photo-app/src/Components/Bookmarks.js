@@ -1,3 +1,4 @@
+// Importing react dependencies and images and components to link up
 import React, { Component } from 'react'
 import { Container, Row, Col } from 'reactstrap';
 import {
@@ -17,6 +18,7 @@ import Profile3 from './Profile3';
 export default class Bookmarks extends Component {
     render() {
         return (
+            // Starting router for navbar links
             <Router>
             <div>
                 <div className= 'navigation'>
@@ -52,15 +54,6 @@ export default class Bookmarks extends Component {
                 </div>
                 <div class="container">
                     <div class="row">
-                        {/* <div class=".col-">
-                            <div className="profileInfo">
-                                <img src={tea} class="rounded-circle" alt="profile picture" style={{width: '13vw', height: '19vh'}}/>
-                                <p class="user">dietmangotea</p>
-                                <p class="bio">Bio bio bio bio bio</p>
-                                <p class="follows">2 Followers | 2 Following</p>
-                                <button onClick={this.logOut}>Log Out</button>
-                            </div>
-                        </div> */}
                         <div class="col-10">
                         <Container>
                                 <Row>
