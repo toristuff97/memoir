@@ -55,6 +55,7 @@ export default class Bookmarks extends Component {
                 <div class="container">
                     <div class="row">
                         <div class="col-10">
+                            {/* Random photos to use for bookmarks */}
                         <Container>
                                 <Row>
                                 <Col>
@@ -107,6 +108,7 @@ export default class Bookmarks extends Component {
                         </div>
                     </div>
                 </div>
+                {/* Switch statement for router */}
                 <Switch>
                 <Route exact path='/' Component={Home}/>
                 <Route exact path='/Profile1' Component={Profile1}/>
