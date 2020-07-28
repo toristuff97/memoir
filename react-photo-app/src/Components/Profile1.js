@@ -76,6 +76,7 @@ export default class Profile1 extends Component {
                             </div>
                         </div>
                         <div class="col-10">
+                        {/* Profile photos start here */}
                         <Container>
                                 <Row>
                                 <Col>
