@@ -41,7 +41,7 @@ export default class Profile2 extends Component {
                             </Link>
                             </li>
                             <li class="nav-item">
-                                {/* Link to Bookmarks */}
+                            {/* Link to Bookmarks */}
                             <Link to='/Bookmarks' style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}}>
                             <a class="nav-link" style={{fontFamily: "American Typewriter", fontSize: 22, color: "#c8553d"}} href="javascript:;">Bookmarks</a>
                             </Link>
@@ -53,6 +53,7 @@ export default class Profile2 extends Component {
                 </div><div class="container">
                     <div class="row">
                         <div class=".col-">
+                            {/* Profile info starts here */}
                             <div className="profileInfo">
                                 <img src={lady} class="rounded-circle" alt="profile picture" style={{width: '13vw', height: '19vh'}}/>
                                 <p class="user">fizzamy</p>
