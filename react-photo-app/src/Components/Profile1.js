@@ -123,6 +123,7 @@ export default class Profile1 extends Component {
                         </div>
                     </div>
                 </div>
+                {/* Switch for the router, may be unnnecessary but I'm not sure */}
                 <Switch>
                 <Route exact path='/' Component={Home}/>
                 <Route exact path='/Profile1' Component={Profile1}/>
