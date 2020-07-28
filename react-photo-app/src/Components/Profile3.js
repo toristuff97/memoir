@@ -13,9 +13,11 @@ export default class Profile3 extends Component {
         return (
             <div>
                 <div>
+                    {/* Navbar begins here (using bootstrap) */}
                 <div className= 'navigation'>
                     <nav class="navbar navbar-expand-lg navbar-custom">
                     <div class="container">
+                        {/* Inline styling for navbar */}
                         <a class="navbar-brand" style={{fontFamily: "Brush Script MT", fontSize: 40, color: "#c8553d"}} href="javascript:;">M</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-bar navbar-kebab"></span>
