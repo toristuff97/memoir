@@ -1,3 +1,4 @@
+// Importing React dependencies and images for Profile3
 import React, { Component } from 'react'
 import { Container, Row, Col } from 'reactstrap';
 import lucas from '../assets/lucas.jpg'
