@@ -75,7 +75,7 @@ export default class Bookmarks extends Component {
                                         </Link>
                                         <p class="caption">Was here yesterday, pretty cool!</p>
                                         <button type="button" class="btn btn-link">2 Comments</button>
-                                        <button type="button" class="btn btn-link">Bookmark</button>
+                                        <button type="button" class="btn btn-link">Bookmarked</button>
                                     </div>
                                 </div>
                                 </Col>
@@ -90,7 +90,7 @@ export default class Bookmarks extends Component {
                                         </Link>
                                         <p class="caption">Was here yesterday, pretty cool!</p>
                                         <button type="button" class="btn btn-link">2 Comments</button>
-                                        <button type="button" class="btn btn-link">Bookmark</button>
+                                        <button type="button" class="btn btn-link">Bookmarked</button>
                                     </div>
                                 </div>
                                 </Col>
@@ -105,7 +105,7 @@ export default class Bookmarks extends Component {
                                         </Link>
                                         <p class="caption">Was here yesterday, pretty cool!</p>
                                         <button type="button" class="btn btn-link">2 Comments</button>
-                                        <button type="button" class="btn btn-link">Bookmark</button>
+                                        <button type="button" class="btn btn-link">Bookmarked</button>
                                     </div>
                                 </div>
                                 </Col>
