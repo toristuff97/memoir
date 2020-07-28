@@ -61,7 +61,7 @@ export default class Profile3 extends Component {
                                         <button class="material-icons" style={{border: "none", backgroundColor: "white"}} >favorite_border</button>
                                         <p class="likes">2 Likes</p>
                                         <p class="username" style={{fontWeight: "bold"}}>lucasicterine</p>
-                                        <p class="caption">Was here yesterday, pretty cool!</p>
+                                        <p class="caption">I'm already halfway there!</p>
                                         <button type="button" class="btn btn-link">2 Comments</button>
                                         <button type="button" class="btn btn-link">Bookmark</button>
                                     </div>
