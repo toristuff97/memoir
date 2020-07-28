@@ -56,7 +56,7 @@ export default class Profile3 extends Component {
                             </div>
                         </div>
                         <div class="col-10">
-                            {/* Photos for profile3 start here */}
+                            {/* Photos for profile3 start here, container holds rows and columns of photo grid */}
                         <Container>
                                 <Row>
                                 <Col>
