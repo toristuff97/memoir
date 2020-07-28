@@ -219,7 +219,7 @@ export default class Home extends Component {
                             <Link to='/Profile2' style={{fontFamily: "American Typewriter", color: "#c8553d"}}>
                             <p class="username" style={{fontWeight: "bold"}}>fizzamy</p>
                             </Link>
-                            <p class="caption">Was here yesterday, pretty cool!</p>
+                            <p class="caption">Interior goals</p>
                             <button type="button" class="btn btn-link">2 Comments</button>
                             <button type="button" class="btn btn-link">Bookmark</button>
                         </div>
