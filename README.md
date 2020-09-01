@@ -1,4 +1,4 @@
-# react-photo-app
+# Memoir
 
 ## Description
 This project emulates a site like Instagram, where you can post photos and follow friends to see their pictures. Clicking on usernames will bring you to each profile, and clicking the links in the navbar will bring you to the different components.
